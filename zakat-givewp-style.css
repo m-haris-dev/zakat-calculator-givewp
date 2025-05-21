@@ -1,0 +1,126 @@
+.zakat-givewp-calculator {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  margin: auto;
+}
+.zakat-givewp-calculator label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.zakat-givewp-calculator input,
+.zakat-givewp-calculator select {
+  width: 100%;
+  padding: 10px !important;
+  margin-top: 5px;
+  border: 1px solid #000 !important;
+  box-sizing: border-box;
+  border-radius: 5px !important;
+}
+.zakat-givewp-calculator .total {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.5em;
+}
+.zakat-givewp-calculator .note {
+  font-size: 16px;
+  color: #006700;
+  margin-top: 10px;
+}
+#nisabValueDisplay{
+    font-size: 16px;
+    color: #006700;
+}
+.zakat-givewp-calculator{
+    border: 1px solid #006700;
+    border-radius: 20px;
+}
+
+.zakat-givewp-calculator h2{
+    font-size: 30px;
+    line-height: 0;
+    display: block;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.zakat-givewp-head {
+    background-color: #006700;
+    padding: 20px 20px 30px;
+    border-radius: 20px 20px 0px 0px;
+    color: #fff;
+}
+
+.zakat-givewp-body {
+    padding: 30px 20px;
+}
+
+.zakat-givewp-body label {
+    color: #000;
+    font-weight: 500;
+}
+.inline-field {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25px;
+}
+
+.inline-field .field {
+    width: 100%;
+}
+
+.zakat-givewp-calculator .total span {
+    color: #006700;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.zakat-givewp-calculator h4{
+    font-size: 22px;
+    line-height: 0;
+    padding-top: 10px;
+}
+#give-form{
+    display: none;
+
+}
+button#donateZakatBtn:hover{
+    color: var(--theme-color-bg_color);
+    background-color: var(--theme-color-text_hover2);
+    border-color: var(--theme-color-text_hover2);
+}
+button#donateZakatBtn {
+    color: var(--theme-color-inverse_link);
+    background-color: var(--theme-color-text_link2);
+    padding: 17px 30px;
+    border-radius: 0px;
+    border-color: var(--theme-color-text_link2);
+    margin-top: 15px;
+    font-weight: bold;
+}
+#give-form .give-total-wrap {
+    display: none;
+}
+
+#give-form ul#give-donation-level-button-wrap {
+    display: none;
+}
+
+#give-form .give-form #give-payment-mode-select {
+    position: inherit;
+}
+#give-form .give-form #give_purchase_form_wrap {
+    margin-top: 20px !important;
+}
+.form-row.form-row-wide.ffm-field-container.js-phone-unformatted {
+    padding: 0px !important;
+}
+.form-row.form-row-wide.ffm-field-container textarea {
+    display: none;
+}
+@media(max-width:600px){
+    .inline-field{
+        flex-direction: column;
+    }
+}
